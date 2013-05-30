@@ -1,0 +1,19 @@
+{
+    "name": "dantleech/quickcomposer",
+    "description": "Quick Composer",
+    "require": {
+        "symfony/console": "dev-master"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "dantleech",
+            "email": "dan.t.leech@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "DTL\\QComposer": "src"
+        }
+    }
+}
